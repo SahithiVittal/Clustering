@@ -43,7 +43,7 @@ def main():
     income=st.text_input('Enter the income per person')
     infl=st.text_input('Enter the inflation rate')
 
-    input_data =[[child_mor,export,health,impor,income,infl,lf_exp,tot_fer,gdp]]
+    input_data =[[child_mor,export,health,impor,income,infl,lf_exp,tol_fer,gdp]]
 
     if st.button('predict'):
         response=prediction(inp_list)
