@@ -24,7 +24,7 @@ def prediction(input_data):
 
     if pred==0:
         return 'Developed'
-    elif pred=1:
+    elif pred==1:
         return 'Developing'
     else:
         return 'Under Developed'
