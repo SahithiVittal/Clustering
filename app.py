@@ -46,7 +46,7 @@ def main():
     input_data =[[child_mor,export,health,impor,income,infl,lf_exp,tol_fer,gdp]]
 
     if st.button('predict'):
-        response=prediction(inp_list)
+        response=prediction(input_list)
         st.success(response)
 
 if __name__=='__main__':
